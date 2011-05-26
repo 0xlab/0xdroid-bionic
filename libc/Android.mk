@@ -353,10 +353,10 @@ libc_common_src_files += \
 	arch-arm/bionic/sigsetjmp.S \
 	arch-arm/bionic/strlen.c.arm \
 	arch-arm/bionic/strcpy.S \
+	arch-arm/bionic/strcmp.S \
 	arch-arm/bionic/syscall.S \
 	string/memmove.c.arm \
 	string/bcopy.c \
-	string/strcmp.c \
 	string/strncmp.c \
 	unistd/socketcalls.c
 
@@ -402,6 +402,7 @@ libc_common_src_files += \
 	arch-x86/string/strncmp_wrapper.S \
 	arch-x86/string/strlen.S \
 	string/strcpy.c \
+	string/strcmp.c \
 	bionic/pthread-rwlocks.c \
 	bionic/pthread-timers.c \
 	bionic/ptrace.c
